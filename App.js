@@ -23,11 +23,7 @@ const styles = StyleSheet.create({
 
 
 export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { value: this.props.value };
-
-  }
+  
   render() {
     return (
       <View style={{flex: 1}}>
